@@ -1,0 +1,262 @@
+.container {
+  display: flex;
+  position: relative;
+  overflow-x:hidden;
+}
+
+/* make the center item scrollable somehow like twitter, and the side nav is just sticky */
+
+.center-scroll {
+  flex-direction: column;
+  display: flex;
+  justify-content: center safe;
+  flex-wrap: nowrap;
+  white-space: nowrap;
+  overflow-y: scroll;
+  width: 100vw;
+  height: 90vh;
+}
+
+
+#center-items {
+  background-color: white;
+  border-width: 1px;
+  border-style: solid;
+  height: 3in;
+  border-color: grey;
+  border-radius: 20px;
+  min-height: 3in;
+  margin: 19px;
+}
+
+
+.search-results-container {
+  border: 1;
+  background-color: whitesmoke;
+  font-size: 20px;
+  display: flex;
+  border-radius: 30px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: whitesmoke;
+  margin-bottom: 50px;
+  margin-left: 80px;
+  width: 900px;
+  margin-left: 86px;
+  padding: 32px 16px 32px 8px;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.input-search {
+  border-radius: 20px;
+  border-width: 2px;
+  border-color: #4CAF50;
+  border-style: solid;
+  height: 36px;
+  font-size: 25px;
+  width: 245px;
+  margin: 10px;
+}
+
+.search-container {
+  margin-bottom: 25px;
+}
+
+.jobName {
+  font-weight: bolder;
+  font-size: 26px;
+  font-family: sans-serif;
+}
+
+
+.jobInfo {
+  color: black;
+  text-align: left;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  flex-direction: column;
+  flex-grow: 2;
+  font-family: sans-serif;
+}
+
+.jobLocation {
+  color: slategray;
+}
+.jobDate {
+  color: slategray;
+  font-size: 16px;
+}
+
+.jobImage {
+  display: flex;
+  width: min-content;
+  height: min-content;
+  width: 150px;
+  height: 150px;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  justify-content: left;
+}
+
+.jobClick {
+  display: flex;
+  width: 100px;
+  height: 150px;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.actualImage {
+  display: block;
+  width: 100px;
+  height: 100px;
+  padding: 20px;
+  align-items: center;
+}
+
+
+.notification-wrapper {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  width: 300px;
+}
+
+.notification-item {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 20px;
+  animation: SlideLeft 0.4s;
+  animation-fill-mode: forwards;
+  width: 300px;
+}
+
+@keyframes SlideLeft {
+  0% {
+    margin-left: 120%;
+  }
+
+  100% {
+    margin-left: 0;
+  }
+}
+
+@keyframes SlideRight {
+  0% {
+    margin-left: 0;
+  }
+
+  100% {
+    margin-left: 120%;
+  }
+}
+
+.notification-item.exit {
+  animation: SlideRight 0.4s;
+  animation-fill-mode: forwards;
+}
+
+.notification-item p {
+  margin: 0;
+  padding: 10px;
+}
+
+.notification-item .bar {
+  height: 10px;
+}
+
+.notification-item.success .bar {
+  background-color: #65d266;
+}
+
+.notification-item.error .bar {
+  background-color: red;
+}
+
+/* question mark hover button */
+.question {
+  display: inline-block;
+  padding: 10px;
+  padding-top: 5px;
+  margin-left: 9px;
+  border: #4E91F4;
+  color: #4E91F4;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 160px;
+  width: 11px;
+  height: 11px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+
+.question .questionText {
+  position: absolute;
+  visibility: hidden;
+  height: fit-content;
+  width: fit-content;
+  text-align: left;
+  margin: auto;
+  background-color: whitesmoke;
+  color: #4E91F4;
+  font-size: small;
+  font-weight: lighter;
+  font-family: sans-serif;
+  border-radius: 6px;
+  padding: 10px;
+}
+
+
+.question:hover .questionText {
+  visibility: visible;
+}
+
+.plusButton {
+  color: #4CAF50;
+  margin-top: px;
+}
+
+/* Form.js */
+
+.jobForm {
+  text-align: left;
+  color: black;
+  font-family: sans-serif;
+  font-weight: bolder;
+  font-size: 25px;
+}
+
+.textarea {
+  border-color: #4CAF50;
+  border-style: solid;
+  border-radius: 10px;
+  margin: 20px;
+  font-size: 20px;
+  border-width: 3px;
+  max-width: 521px;
+  max-height: 221px;
+
+}
+
+.fieldset {
+  width: 990px;
+  flex-direction: row;
+  display: flex;
+  justify-content: center safe;
+  flex-wrap: wrap;
+  white-space: pre-wrap;
+  overflow-y: auto;
+}
+
+/* select fields in home.jsx */
+select{
+  height: 40px;
+  font-size: 17px;
+}

@@ -1,0 +1,88 @@
+#login {
+    position: sticky;
+    background: #4E91F4;
+    height: 100px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 90px;
+    color: white;
+}
+
+#form {
+    display: block;
+    margin: 40px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.loginInput {
+    border-radius: 20px;
+    border-width: 2px;
+    border-color: #4CAF50;
+    border-style: solid;
+    height: 36px;
+    font-size: 18px;
+    width: 320px;
+    margin: 10px;
+}
+
+label {
+    color: rgba(0, 0, 0, 0.6);
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+button {
+    margin-top: 20px;
+
+}
+
+h1 {
+
+    font-weight: normal;
+
+}
+
+h2 {
+    font-weight: normal;
+    width: 130px;
+}
+
+.page-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.content-wrap {
+    flex: 1;
+
+}
+
+h3 {
+    display: table-cell;
+    width: 490px;
+    height: 200px;
+    padding: 1px;
+}
+
+/* Register */
+
+.textInput{
+    font-family: sans-serif;
+    
+}
+
+.regInput {
+    border-radius: 20px;
+    border-width: 2px;
+    border-color: #4CAF50;
+    border-style: solid;
+    height: 30px;
+    font-size: 18px;
+    width: 300px;
+
+}
+
+.registerRef{
+    font-family: sans-serif;
+    margin-top: 20px;
+}

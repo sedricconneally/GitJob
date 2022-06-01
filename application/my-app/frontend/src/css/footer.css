@@ -1,0 +1,33 @@
+/* FOOTER */
+
+footer .social {
+  display: flex;
+  flex-direction: row;
+  background-color: #4E91F4;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+section {
+  width: 100%;
+  text-align: inherit;
+}
+
+
+.rows{
+  margin-left: 40px;
+  font-size: 15px;
+  padding-top: 13px;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: row-reverse;
+  color: white;
+  font-weight: lighter;
+  padding-right: 50px;
+}
+
+.socials{
+  margin-left: 5px;
+  margin-right: 5px;
+  color: white;
+}

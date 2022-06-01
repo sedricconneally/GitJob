@@ -1,0 +1,59 @@
+/* top navbar */
+.navbar{
+    background-color: #4E91F4;
+    height: 80px;
+    font-family: 'Courier New', sans-serif;
+    color: white;
+    text-align: left;
+    font-weight: bold;
+    font-size: 55px;
+    padding-left: 50px;
+    padding-top: 20px;
+} 
+
+/* .sidenav in home.css controls the sidenav bar */
+
+.sidenav-careers {
+    height: 100vh;
+    width: 330px; /* A fixed width as the default */
+    background-color: #4E91F4;
+  }
+
+.nav-text{
+    display:flex;
+    flex-direction: column;
+    padding: 9px;
+    margin-bottom: 29px;
+    list-style: none;
+    height: 60px;
+}
+
+
+.nav-text a{
+    text-decoration: none;
+    color: white;
+    font-size: 23px;
+    font-family: sans-serif;
+    font-weight: 700;
+    width: 95%;
+    height: 100%;
+    display: flex;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.nav-text a:hover {
+    background-color: #4CAF50;
+}
+
+span{
+    margin-left: 20px; 
+}
+
+.titleName{
+    padding-right: 5px;
+    font-size: 10px;
+    text-align: right;
+    font-family: sans-serif;
+    font-weight: lighter;
+}

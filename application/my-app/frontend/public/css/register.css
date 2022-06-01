@@ -1,0 +1,112 @@
+ul{
+    position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 75.2%;
+
+background: rgba(74, 142, 243, 0.98);
+}
+
+.logo{
+    position: absolute;
+left: 36.67%;
+right: 36.6%;
+top: 3.81%;
+bottom: 78.91%;
+
+}
+
+b2{
+    
+position: absolute;
+left: 37.99%;
+right: 37.99%;
+top: 30.57%;
+bottom: 60.25%;
+
+font-family: 'Fira Code';
+font-style: normal;
+font-weight: 400;
+font-size: 72px;
+line-height: 94px;
+
+color: #000000;
+
+}
+b3{
+    position: absolute;
+left: 35.07%;
+right: 60.9%;
+top: 45.7%;
+bottom: 51.27%;
+
+font-family: 'Fira Code';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 31px;
+
+color: #000000;
+}
+
+b4{
+    /* Email */
+
+
+position: absolute;
+left: 34.1%;
+right: 60.9%;
+top: 51.86%;
+bottom: 45.12%;
+
+font-family: 'Fira Code';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 31px;
+
+color: #000000;
+}
+
+b42{
+    /* Password */
+
+
+position: absolute;
+left: 31.04%;
+right: 60.9%;
+top: 58.2%;
+bottom: 38.87%;
+
+font-family: 'Fira Code';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 31px;
+
+color: #000000;
+}
+b5{
+
+
+position: absolute;
+left: 23.06%;
+right: 60.9%;
+top: 64.36%;
+bottom: 32.62%;
+
+font-family: 'Fira Code';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 31px;
+
+color: #000000;
+}
+
+account{
+
+    
+}
+

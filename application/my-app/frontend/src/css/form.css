@@ -1,0 +1,87 @@
+
+.JobPosting2 {
+    padding: 5px 20px;
+    text-align: center;
+    
+}
+
+.JobPosting3 {
+    padding: 5px 20px;
+    text-align: center;
+}
+
+fieldset{
+    border: 0;
+    background-color: whitesmoke;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+h1{
+   
+    margin: auto;
+    width: 11%;
+    border: 0;
+    padding: 10px;
+        font-weight: normal;
+        font-family: "Lucida Console", "Courier New", monospace; 
+    
+}
+form{
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: normal;
+    color: black;
+
+ 
+}
+button{
+    background-color: #4CAF50;
+    border: 0;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 400px;
+    
+  }
+
+  label.firstname{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+
+  .submittedJob{
+      padding: 50px;
+      text-align: left;
+      font-size: 20px;
+      display: block;
+      position: relative;
+      height: 100%;
+      width: 70%;
+      border-style: solid;
+      border-color: #4CAF50;
+      border-radius: 19px;
+      overflow-x: none;
+      word-wrap: break-word;
+  }
+

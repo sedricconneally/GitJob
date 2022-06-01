@@ -1,0 +1,52 @@
+#user{
+    position: sticky;
+    background: #4E91F4;
+    height: 100px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 90px;
+    color: white;
+}
+
+#password{
+    display: block;
+    margin: -30px;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+#updatef{
+    margin: 60px;
+    display: block;
+   
+
+}
+
+.button{
+    font-size: 54px;
+}
+
+
+#form{
+    display: block;
+    margin: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+.input{
+    border-radius: 10px;
+    border-width: 1.5px;
+    margin: 10px;
+    height: 20px;
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+
+
+
+button{
+    margin-top: 20px;
+    
+}
+
+
